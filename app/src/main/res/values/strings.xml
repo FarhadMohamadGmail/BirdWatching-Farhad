@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BirdWatching</string>
+    <string name="bird_observation">Bird Observation</string>
+    <string name="bird_species">bird species</string>
+    <string name="location">Location</string>
+    <string name="longitude_and_latitude">Longitude and Latitude</string>
+    <string name="get_location">Get Location</string>
+    <string name="time">Time</string>
+    <string name="write_date_and_time_yourself_or_click_on_start">write date and time yourself or click on start</string>
+    <string name="start">Start</string>
+    <string name="write_date_and_time_yourself_or_click_on_end">write date and time yourself or click on end</string>
+    <string name="end">End</string>
+    <string name="register">Register</string>
+</resources>

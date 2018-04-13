@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="farhadarts.birdwatching.BirdDetailActivity">
+
+
+    <TextView
+        android:id="@+id/bird_heading_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/bird_latitude_edittext"
+        android:text="Latitude" />
+
+    <EditText
+        android:id="@+id/bird_latitude_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/bird_longitude1_edittext"
+        android:text="Longitude" />
+
+    <EditText
+        android:id="@+id/bird_longitude1_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/bird_nameDanish_edittext"
+        android:text="NameDanish" />
+
+    <EditText
+        android:id="@+id/bird_nameDanish_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="NameDanish"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/bird_nameEnglish_edittext"
+        android:text="NameEnglish" />
+
+    <EditText
+        android:id="@+id/bird_nameEnglish_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="NameEnglish"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

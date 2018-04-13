@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="farhadarts.birdwatching.BirdObservationActivity">
+
+
+        <TextView
+            android:id="@+id/BirdObservation"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_centerHorizontal="true"
+            android:padding="1dp"
+            android:text="Bird Observation "
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <EditText
+           android:id="@+id/NameDanish"
+            android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="NameDanish"
+            android:inputType="textPassword"
+            android:paddingBottom="15dp"
+            android:textColorHint="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/NameEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="NameEnglish"
+            android:inputType="textPassword"
+            android:paddingBottom="15dp"
+            android:textColorHint="@color/colorAccent"
+            />
+
+      <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/LocationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:padding="1dp"
+            android:text="Location"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/locationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude and Latitude"/>
+
+        <Button
+            android:id="@+id/getLocationbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Location"/>
+
+
+           <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/TimeView"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:padding="1dp"
+            android:text="Time"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/dateTimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:hint="write date and time yourself or click on start" />
+
+
+        <Button
+            android:id="@+id/dateTimeStartBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start for current date and time" />
+
+        <EditText
+            android:id="@+id/dateTimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:hint="write date and time yourself or click on end"/>
+
+        <Button
+            android:id="@+id/dateTimeEndBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End" />
+
+        <Button
+            android:id="@+id/registerBt"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Register"
+            android:onClick="Register"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
